@@ -439,7 +439,7 @@ SPECIAL POLICIES:
     try {
       // ⚠️ IMPORTANT: Replace with your actual Vercel URL
       // Get it from your Vercel dashboard (looks like: https://your-project.vercel.app)
-      const BACKEND_URL = 'https://ai-widget-backend.vercel.app/';
+      const BACKEND_URL = 'https://ai-widget-backend.vercel.app/api/chat';
 
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
