@@ -1,10 +1,12 @@
 /**
  * AI SUPPORT WIDGET - CUSTOMER TEMPLATE
  * Created by: Khalid Mohamed (khalidiin12@gmail.com)
- * * CUSTOMIZATION INSTRUCTIONS:
- * 1. Update config object with customer's store information
- * 2. Save as: ai-widget-[storename].js
- * 3. Push to GitHub and get Raw URL
+ * 
+ * CUSTOMIZATION INSTRUCTIONS:
+ * 1. Replace YOUR-VERCEL-URL.vercel.app with your actual Vercel deployment URL
+ * 2. Update config object with customer's store information
+ * 3. Save as: ai-widget-[storename].js
+ * 4. Push to GitHub and get Raw URL
  */
 
 (function() {
@@ -435,8 +437,9 @@ SPECIAL POLICIES:
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
 
     try {
-      // PROD BACKEND URL
-      const BACKEND_URL = 'https://ai-widget-backend.vercel.app/api/chat';
+      // ⚠️ IMPORTANT: Replace with your actual Vercel URL
+      // Get it from your Vercel dashboard (looks like: https://your-project.vercel.app)
+      const BACKEND_URL = 'https://ai-widget-backend.vercel.app/';
 
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
