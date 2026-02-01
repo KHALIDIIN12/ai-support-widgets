@@ -3,9 +3,8 @@
  * Created by: Khalid Mohamed (khalidiin12@gmail.com)
  * * CUSTOMIZATION INSTRUCTIONS:
  * 1. Update config object with customer's store information
- * 2. Deploy your backend proxy to Vercel and get the URL
- * 3. Replace BACKEND_URL in the sendMessage function below
- * 4. Save as: ai-widget-[storename].js
+ * 2. Save as: ai-widget-[storename].js
+ * 3. Push to GitHub and get Raw URL
  */
 
 (function() {
@@ -15,8 +14,6 @@
   // CONFIGURATION - CUSTOMIZE FOR EACH CUSTOMER
   // ============================================
   const config = {
-    // API Key removed for security - handled by backend proxy
-    
     // Customer Store Details
     storeName: 'STORE_NAME_HERE',
     primaryColor: '#D4AF37',  // Gold - can change to customer's brand color
@@ -438,8 +435,8 @@ SPECIAL POLICIES:
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
 
     try {
-      // Replace this with your actual Vercel deployment URL
-      const BACKEND_URL = 'https://ai-widget-backend-yourname.vercel.app/api/chat';
+      // PROD BACKEND URL
+      const BACKEND_URL = 'https://ai-widget-backend.vercel.app/api/chat';
 
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
