@@ -24,36 +24,25 @@
     
     // Customer's Business Information
     knowledgeBase: `
-STORE INFO:
-- Store Name: [CUSTOMER STORE NAME]
-- We sell: [PRODUCTS/SERVICES]
+COMPANY OVERVIEW:
+- Store Name: SkinSpirit
+- Expertise: #1 provider of Botox and dermal fillers in the U.S.
+- Services: Botox, Dermal Fillers (Juvederm, Restylane), DiamondGlow facials, Laser Hair Removal, CoolSculpting, and medical-grade skincare.
 
-SHIPPING:
-- Nairobi: [X-X business days]
-- Other counties: [X-X business days]
-- Shipping cost: [Free over KES X, or KES X flat rate]
-- Express shipping: [Available/Not available - KES X]
+LOCATION - PALO ALTO (Flagship):
+- Address: 261 University Ave, Palo Alto, CA 94301
+- Phone: (650) 324-9600
+- Services: Full menu of medical aesthetics and skin care.
 
-RETURNS:
-- Return period: [X days]
-- Conditions: [Unworn, with tags, etc.]
-- Return shipping cost: [Who pays?]
-- Non-returnable items: [Custom items, final sale, etc.]
-
-PAYMENT METHODS:
-- M-Pesa: [Yes/No - Number if yes]
-- Credit/Debit Cards: [Yes/No]
-- Bank Transfer: [Yes/No]
-- Cash on Delivery: [Yes/No - where available]
-
-CONTACT INFORMATION:
-- Email: [customer email]
-- Phone: [customer phone]
-- WhatsApp: [customer whatsapp]
-- Business Hours: [Mon-Sat 9am-6pm, etc.]
+GENERAL POLICIES:
+- Appointments: Can be booked online at skinspirit.com or by calling the clinic directly.
+- Consultations: We offer comprehensive consultations to create custom treatment plans.
+- Pricing: Competitive medical aesthetic pricing; specific quotes are provided during consultations.
+- Business Hours: Most locations are open Mon-Sat, roughly 9am-8pm (varies by clinic).
 
 SPECIAL POLICIES:
-- [Any unique policies, warranties, custom orders, etc.]
+- SkinSpirit is known for high safety standards and medically-led aesthetic treatments.
+- We emphasize natural-looking results tailored to individual patient goals.
     `.trim()
   };
 
